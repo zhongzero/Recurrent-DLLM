@@ -1,7 +1,7 @@
 # On the Importance of Hidden-State Refinement in Masked Diffusion Language Models
 
 <p align="center">
-  <img alt="arXiv · Coming soon" src="https://img.shields.io/badge/arXiv-Coming%20soon-b31b1b">
+  <a href="https://arxiv.org/abs/2611.32416"><img alt="arXiv:2611.32416" src="https://img.shields.io/badge/arXiv-2611.32416-b31b1b"></a>
   <a href="https://zhongzero.github.io/Recurrent-DLLM/"><img alt="Project page" src="https://img.shields.io/badge/Project-Page-blue"></a>
   <a href="https://github.com/zhongzero/Recurrent-DLLM"><img alt="Code on GitHub" src="https://img.shields.io/badge/Code-GitHub-orange"></a>
 </p>
@@ -130,3 +130,19 @@ bash scripts/train.sh --mode joint --output runs/llada-instruct-joint \
 ## Acknowledgments
 
 The model and sampler build on LLaDA and Fast-dLLM. The supervised denoising and reasoning evaluation code build on d1. Model weights and benchmark data retain their upstream terms. [LLaDA](https://github.com/ML-GSAI/LLaDA) · [Fast-dLLM](https://github.com/NVlabs/Fast-dLLM) · [d1](https://github.com/dllm-reasoning/d1)
+
+## 🖊️ Citation
+
+If you use this work in your research, please cite our paper.
+
+```bibtex
+@misc{zhong2026importancehiddenstaterefinementmasked,
+  title={On the Importance of Hidden-State Refinement in Masked Diffusion Language Models},
+  author={Linhao Zhong and Bozhen Fang and Xuehao Wang and Zekai Luo and Liyang Li and Hourong Li and Chenchen Jing and Hao Chen},
+  year={2026},
+  eprint={2611.32416},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2611.32416},
+}
+```
